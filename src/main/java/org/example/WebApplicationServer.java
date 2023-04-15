@@ -4,9 +4,11 @@ import org.apache.catalina.LifecycleException;
 import org.apache.catalina.startup.Tomcat;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.io.File;
 
+@SpringBootApplication
 public class WebApplicationServer {
 
     private static final Logger log = LoggerFactory.getLogger(WebApplicationServer.class);
